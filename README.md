@@ -9,7 +9,8 @@ This Docker image is powered by:
 - [`Rclone`](https://rclone.org/) - Rclone is a command-line program to manage files on cloud storage.
 - [`supercronic`](https://github.com/aptible/supercronic) - Cron for containers.
 
-If you are looking for a Restic based Docker image to backup your files, you can check out the following project: https://github.com/stephane-klein/restic-pg_dump-docker/
+If you are looking for a Restic for Postgres based Docker image to backup your
+files, you can check out the following project: https://github.com/stephane-klein/restic-pg_dump-docker/
 
 
 ## Getting started
