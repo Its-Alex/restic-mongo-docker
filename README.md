@@ -56,6 +56,7 @@ restic-pg-dump:
   - `MONGO_PORT` (default: `27017`).
 - `RESTIC_PASSWORD` to [encrypte your backup](https://restic.readthedocs.io/en/latest/faq.html#how-can-i-specify-encryption-passwords-automatically) (empty by default, i.e. no encrypted).
 - `RESTIC_DOCKER_BACKUP_CRON_SCHEDULE` (default `0 * * * *` hourly).
+- `RESTIC_DOCKER_SNAPSHOT_ID` (default to `latest`)
 - Configure [`restic forget`](https://restic.readthedocs.io/en/latest/060_forget.html#) (which allows removing old snapshots) with this variable environments:
   - `RESTIC_KEEP_HOURLY` (default: `24`);
   - `RESTIC_KEEP_DAILY` (default: `7`);
