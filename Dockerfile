@@ -46,6 +46,7 @@ COPY --from=BASE --chmod=0755 /tmp/mongodb-database-tools/bin/mongostat /usr/loc
 COPY --from=BASE --chmod=0755 /tmp/mongodb-database-tools/bin/mongotop /usr/local/bin/mongotop
 
 COPY --chmod=0755 ./backup.sh /opt/restic/backup.sh
+COPY --chmod=0755 ./restore.sh /opt/restic/restore.sh
 COPY --chmod=0755 ./entrypoint.sh /opt/restic/entrypoint.sh
 
 ENV RESTIC_PASSWORD=""
